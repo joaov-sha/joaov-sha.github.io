@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Virtual</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Mock Library
+        </h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <h3>
+                    Para buscar livros insira as informações no campo abaixo.
+                </h3>
+                <input type="text" name="busca" id="busca" placeholder="Busque aqui por título, autor, editora, código de barras ou ISBN">
+                <div id="erros" role="alert" aria-live="polite"></div>
+                <div id="carregando" aria-live="polite">Buscando livros, por favor, aguarde...</div>
+                <div>
+                    <button id="enviar">Buscar</button>
+                    <input type="reset" value="Limpar">
+                </div>
+            </fieldset>
+        </form>
+
+        <p>
+            Interface a ser reconstruída: <a href="https://wilton-filho.github.io/IHC-GitHub/codigos/consulta_obras/">Link</a>
+        </p>
+    </main>
+    <footer>
+        Todos os direitos reservados
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

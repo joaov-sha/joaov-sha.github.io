@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', serif;
+}
+
+h1{
+    padding: 30px 10px;
+}
+
+h3{
+    padding: 10px 10px 30px 10px;
+}
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+form div{
+    padding: 5px 0px;
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 60%;
+}
+
+input[type="reset"]:hover,button:hover{
+    cursor:pointer;
+}
+
+footer{
+    padding: 30px;
+    text-align: center;
+}
+
+#carregando {
+    display: none;
+    color: blue;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#erros {
+    color: red;
+    margin-top: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main > p{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+a:link, a:active, a:visited{
+    color: red;
+    text-decoration: none;
+}
